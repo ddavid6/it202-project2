@@ -134,7 +134,19 @@
         console.log(response)
     });
     }
- 
+    $('#txt-search').onclick(function(){
+            var searchField = $(this).val();
+			if(searchField === '')  {
+				$('#filter-records').html('');
+				return;
+			}
+			
+            
+			  $('#filter-records').html(output);
+        });
+    
+    
+   
  
   
         
