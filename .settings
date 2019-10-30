@@ -20,7 +20,7 @@
 ; enter your terminal preferences here...
 
 [preview]
-index_file = progressive-web-app-template/index.html
+index_file = startbootstrap-freelancer/index.html
 ; enter your preview preferences here...
 
 [search]
